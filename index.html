@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/main.css"/>
+    <title>To do list</title>
+  </head>
+  <body>
+    <main>
+      <div class="w-full  md:w-[80%] lg:w-[60%] bg-purple-300 h-screen mx-auto px-3 md:px-6 py-8 rounded">
+<div><h2 class="text-[28px] md:text-[38px] text-purple-900">To Do List</h2></div>
+<form id="form-todo">
+  <div class="w-full flex items-center gap-2 md:gap-5 mt-5">
+    <input type="text" name="task" id="task" class="w-[85%] md:w-[90%] py-2 md:py-3 px-2 outline-none rounded text-[14px] md:text-[18px] bg-purple-200" placeholder="Enter your tasks"/>
+    <button class="w-[15%] md:w-[10%] bg-purple-900 text-center py-2 md:py-3 rounded">
+      <i class="fa-solid fa-plus text-purple-300"></i>
+    </button>
+  </div>
+</form>
+<ul id="task-list" class="mt-6 flex gap-y-3 flex-col">
+  <!-- <li class="flex p-4 bg-purple-400 justify-between w-full">
+    <div class="flex items-center gap-3">
+      <input type="radio" class="border-none" name="rdo-completed" id="rd0-completed"/>
+<p class="text-purple-900">Buy a house</p>
+    </div>
+    <div >
+      <i class="fa-solid fa-pencil me-3 text-purple-900"></i>
+      <i class="fa-solid fa-trash-can me-3 text-purple-900"></i>
+
+    </div>
+  </li> -->
+</ul>
+      </div>
+    </main>
+    <script type="module" src="/src/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/d792482e77.js" crossorigin="anonymous"></script>
+  </body>
+</html>
